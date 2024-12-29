@@ -47,12 +47,12 @@
 			"key": "央视大全",
 			"name": "☪央视大全",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/央视大全.js"
+			"ext": "./sg/js/央视大全.js"
 		},
     
     {
@@ -107,12 +107,12 @@
 			"key": "青龙影视",
 			"name": "☪龙影",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./0831/天龙影院.js"
+			"ext": "./sg/0831/天龙影院.js"
 		},
 
       
@@ -151,7 +151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./1024/全能.json"
+      "ext": "./sg/1024/全能.json"
     },
     
         {
@@ -159,7 +159,7 @@
       "name": "☪南瓜",
       "type": 3,
       "api": "csp_NanGua",
-       "jar": "./jar/fty.jar",
+       "jar": "./sg/jar/fty.jar",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -170,12 +170,12 @@
 			"key": "hipy_js_西瓜影院",
 			"name": "☪西瓜",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/西瓜影院.js"
+			"ext": "./sg/js/西瓜影院.js"
 		},
 
     {
@@ -321,7 +321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./1024/茶狐杯.json"
+      "ext": "./sg/1024/茶狐杯.json"
     },
    	{
 			"key": "XBPQ_韩小圈",
@@ -356,7 +356,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./js/飘花影院.js"
+      "ext": "./sg/js/飘花影院.js"
     },
 {
       "key": "畅梦",
@@ -374,8 +374,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./drpy_libs/drpy2.min.js",
-      "ext": "./js/瓜子.js"
+      "api": "./sg/drpy_libs/drpy2.min.js",
+      "ext": "./sg/js/瓜子.js"
     },
     {
       "key": "csp_XYQHiker_农民影视",
@@ -419,8 +419,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./1024/可可影视.json",
-            "jar": "./jar/xyqxbpq.jar"
+            "ext": "./sg/1024/可可影视.json",
+            "jar": "./sg/jar/xyqxbpq.jar"
         },
 {
       "key": "4K影视",
@@ -505,7 +505,7 @@
 			"api": "csp_XBPQ",
 			"filterable": 1,
 			"changeable": 1,
-			"ext": "./1024/热播.json"
+			"ext": "./sg/1024/热播.json"
 		},
     
     {
@@ -581,7 +581,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_XBPQ",
-      "ext": "./1024/优质资源库.json"
+      "ext": "./sg/1024/优质资源库.json"
     },
     	{
 			"key": "xbpq_播王",
@@ -592,7 +592,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"changeable": 1,
-			"ext": "./1024/播王.json"
+			"ext": "./sg/1024/播王.json"
 		},
     
     {
@@ -663,83 +663,83 @@
 			"key": "hipy_js_小虎斑弹幕",
 			"name": "☪小虎斑",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/小虎斑弹幕.js"
+			"ext": "./sg/js/小虎斑弹幕.js"
 		},
 		
 		{
 			"key": "hipy_js_梦米影院",
 			"name": "☪梦米",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/梦米弹幕.js"
+			"ext": "./sg/js/梦米弹幕.js"
 		},
 		
 		{
 			"key": "hipy_js_巨人影院",
 			"name": "☪巨人",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/巨人弹幕.js"
+			"ext": "./sg/js/巨人弹幕.js"
 		},
 		
 		{
 			"key": "hipy_js_小熊影院",
 			"name": "☪小熊",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/小熊弹幕.js"
+			"ext": "./sg/js/小熊弹幕.js"
 		},
 		
 		{
 			"key": "hipy_js_米兔影院",
 			"name": "☪米兔",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/米兔弹幕.js"
+			"ext": "./sg/js/米兔弹幕.js"
 		},
     
     {
 			"key": "hipy_js_一支穿云箭",
 			"name": "☪穿云箭",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/一支穿云箭.js"
+			"ext": "./sg/js/一支穿云箭.js"
 		},
     {
 			"key": "hipy_js_HDmoli",
 			"name": "☪HDmoli",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/HDmoli.js"
+			"ext": "./sg/js/HDmoli.js"
 		},
    
     {
@@ -863,12 +863,12 @@
             "key":"hipy_js_4K-皮皮虾",
             "name":"☪皮虾4K",
             "type":3,
-            "api":"./drpy_libs/drpy22.min.js",
+            "api":"./sg/drpy_libs/drpy22.min.js",
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
             "order_num":536,
-            "ext":"./js/皮皮虾.js"
+            "ext":"./sg/js/皮皮虾.js"
         },
     
     {
@@ -928,12 +928,12 @@
             "key":"hipy_js_4K-AV",
             "name":"☪4K-AV",
             "type":3,
-            "api":"./drpy_libs/drpy22.min.js",
+            "api":"./sg/drpy_libs/drpy22.min.js",
             "searchable":1,
             "quickSearch":1,
             "filterable":1,
             "order_num":536,
-            "ext":"./js/4K-AV.js"
+            "ext":"./sg/js/4K-AV.js"
         },
         
         {
@@ -1312,7 +1312,7 @@
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "./js/ttt.js"
+      "ext": "./sg/js/ttt.js"
     },
 
      
@@ -1326,7 +1326,7 @@
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "./js/guoguo.js"
+      "ext": "./sg/js/guoguo.js"
     },
             {
             "key": "py猎手",
@@ -1671,7 +1671,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "./jar/wex.jar"
+      "jar": "./sg/jar/wex.jar"
     },
     {
       "key": "雷鲸",
@@ -1680,7 +1680,7 @@
       "api": "csp_Wexleijing",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./jar/wex.jar"
+      "jar": "./sg/jar/wex.jar"
     },
     {
       "key": "天翼",
@@ -1689,7 +1689,7 @@
       "api": "csp_Wextyso",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./jar/wex.jar"
+      "jar": "./sg/jar/wex.jar"
     },
     {
       "key": "盘他",
@@ -1698,7 +1698,7 @@
       "api": "csp_WexYDpanta",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./jar/wex.jar"
+      "jar": "./sg/jar/wex.jar"
     },
     {
       "key": "Emby",
@@ -1707,7 +1707,7 @@
       "api": "csp_Wexemby",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./jar/wex.jar"
+      "jar": "./sg/jar/wex.jar"
     },
     
             {
@@ -1783,7 +1783,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./1024/全能影视.json"
+ "ext":"./sg/1024/全能影视.json"
   },
   
   {
@@ -1794,7 +1794,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./1024/齐鲁电影网.json"
+ "ext":"./sg/1024/齐鲁电影网.json"
   },
   
   {
@@ -1805,7 +1805,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./1024/魅影视频.json"
+ "ext":"./sg/1024/魅影视频.json"
   },
   
   
@@ -1818,7 +1818,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./1024/蝌蚪影视.json"
+ "ext":"./sg/1024/蝌蚪影视.json"
   },
 
   {
@@ -1829,7 +1829,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./1024/旋风视频.json"
+ "ext":"./sg/1024/旋风视频.json"
   },
 
 
@@ -1841,7 +1841,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./0930/xbpq_韩迷TV.json"
+ "ext":"./sg/0930/xbpq_韩迷TV.json"
   },
 
 
@@ -1855,7 +1855,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./0831/电视剧网.json"
+    "ext":"./sg/0831/电视剧网.json"
     },
 {
 			"key": "修罗影视",
@@ -1913,7 +1913,7 @@
             "name": "☪即看影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1959,7 +1959,7 @@
             "key": "星云影视",
             "name": "☪星云影视",
             "type": 3,
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
@@ -2023,7 +2023,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./0831/花丛视频.json"
+    "ext":"./sg/0831/花丛视频.json"
     },
     
        {
@@ -2031,7 +2031,7 @@
             "name": "☪天狗追剧",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -2072,7 +2072,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./0831/94影院.json"
+    "ext":"./sg/0831/94影院.json"
     },
     
     {
@@ -2083,7 +2083,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./1024/97电影网.json"
+      "ext": "./sg/1024/97电影网.json"
     },
     
     {
@@ -2094,7 +2094,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./0831/理理影院.json"
+    "ext":"./sg/0831/理理影院.json"
     },
     
    
@@ -2109,7 +2109,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./1024/猛男.json"
+    "ext":"./sg/1024/猛男.json"
     },
 
  
@@ -2122,7 +2122,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./1024/鬼片之家.json"
+    "ext":"./sg/1024/鬼片之家.json"
     },
     
     {
@@ -2133,7 +2133,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./1024/超级社区.json"
+ "ext":"./sg/1024/超级社区.json"
   },
   
     
@@ -2156,7 +2156,7 @@
       "searchable":0,
       "quickSearch":0,
       "filterable":0,
-      "ext":"./0831/含羞草.js"
+      "ext":"./sg/0831/含羞草.js"
     },
     
     {
@@ -2167,7 +2167,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./0831/色花堂.json"
+    "ext":"./sg/0831/色花堂.json"
     },
     
     {
@@ -2178,7 +2178,7 @@
       "searchable":0,
       "quickSearch":0,
       "filterable":0,
-      "ext":"./0831/UAA[听].js"
+      "ext":"./sg/0831/UAA[听].js"
     },
 
 
@@ -2192,7 +2192,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-    "ext":"./0831/仕妻舞.json"
+    "ext":"./sg/0831/仕妻舞.json"
     },
 
 
@@ -2245,7 +2245,7 @@
             "name": "☪溏心魔法",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "ext": {
                 "搜索模式": "1",
                 "搜索url": "https://txcy-7oo1.txcy-pu.buzz/index.php/vodsearch/{wd}----------{pg}---.html",
@@ -2258,7 +2258,7 @@
             "name": "☪广场魔法",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "ext": {
                 "搜索模式": "1",
                 "搜索url": "https://txcy-7oo1.txcy-pu.buzz/index.php/vodsearch/{wd}----------{pg}---.html",
@@ -2318,7 +2318,7 @@
       "name": "☪猛男日系",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
+      "jar": "./sg/jar/xyqxbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -2345,7 +2345,7 @@
       "name": "☪农夫少妇",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
+      "jar": "./sg/jar/xyqxbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -2361,7 +2361,7 @@
 			"name": "☪榴莲影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/xyqxbpq.jar",
+			"jar": "./sg/jar/xyqxbpq.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -2384,7 +2384,7 @@
       "name": "☪弟弟影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
+      "jar": "./sg/jar/xyqxbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -2405,7 +2405,7 @@
             "name": "☪金陵乐园",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "ext":{
                 "主页url": "https://jud.jllth9.motorcycles/cn/home/web/",
                 "直接播放": "1",
@@ -2426,7 +2426,7 @@
             "name": "☪蜜桃影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "ext": {
                 "二次截取": "class=\"block-post&&align=\"center",
                 "数组": "target=\"_blank&&class=\"info-post",
@@ -2445,7 +2445,7 @@
             "key": "黑客出品",
             "name": "☪不伦不类",
             "type": 3,
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "api": "csp_XBPQ",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
@@ -2463,7 +2463,7 @@
             "name": "☪独家库房",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -2489,60 +2489,60 @@
 			"key": "hipy_js_一点视频[密]",
 			"name": "☪一点视频",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/一点视频[密].js"
+			"ext": "./sg/js/一点视频[密].js"
 		},
 		
 		{
 			"key": "hipy_js_九妖仓库[密]",
 			"name": "☪九妖仓库",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/九妖仓库[密].js"
+			"ext": "./sg/js/九妖仓库[密].js"
 		},
 		
 		{
 			"key": "hipy_js_采集之王[合]1",
 			"name": "☪采王密",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 1,
-			"ext": "./js/采集之王[合].js?type=url&params=../js/采集[zy]静态.json"
+			"ext": "./sg/js/采集之王[合].js?type=url&params=../sg/js/采集[zy]静态.json"
 		},
 		
 		{
 			"key": "hipy_js_采集之王[合]2",
 			"name": "☪采王成人",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 2,
-			"ext": "./js/采集之王[合].js?type=url&params=../js/采集[密]静态.json"
+			"ext": "./sg/js/采集之王[合].js?type=url&params=../sg/js/采集[密]静态.json"
 		},
 		
 	{
 			"key": "hipy_js_91[密].js",
 			"name": "☪R18撸[密].js",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/R18撸[密].js"
+			"ext": "./sg/js/R18撸[密].js"
 		},
 		
 		    {
@@ -2561,7 +2561,7 @@
             "name": "☪学妹合集",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -2587,7 +2587,7 @@
             "name": "☪网曝",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
+            "jar": "./sg/jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -2617,12 +2617,12 @@
 			"key": "hipy_js_36直播[密]",
 			"name": "☪36直播[密]",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/36直播[密].js"
+			"ext": "./sg/js/36直播[密].js"
 		},		
 		
 		
@@ -2630,24 +2630,24 @@
 			"key": "央视经济",
 			"name": "☪央视经济",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/央视经济.js"
+			"ext": "./sg/js/央视经济.js"
 		},
 		
 		{
 			"key": "央视新闻",
 			"name": "☪央视新闻",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/央视新闻.js"
+			"ext": "./sg/js/央视新闻.js"
 		},
 		
 		
@@ -2656,24 +2656,24 @@
 			"key": "央视少儿",
 			"name": "☪央视少儿",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/央视少儿.js"
+			"ext": "./sg/js/央视少儿.js"
 		},
 		
 		{
 			"key": "央视综合",
 			"name": "☪央视综合",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/央视综合.js"
+			"ext": "./sg/js/央视综合.js"
 		},
 
 {
@@ -2684,7 +2684,7 @@
  "searchable":1,
  "quickSearch":1,
  "filterable":1,
- "ext":"./0930/免费短剧.json"
+ "ext":"./sg/0930/免费短剧.json"
   },
     
 
@@ -2714,7 +2714,7 @@
             "name": "☪短剧屋",
             "type": 3,
             "api": "csp_XBPQ",
-             "jar": "./jar/xyqxbpq.jar",
+             "jar": "./sg/jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -2764,19 +2764,19 @@
 			},
 			"quickSearch": 0,
 			"api": "csp_XBPQ",
-			"ext": "./0930/评书.json"
+			"ext": "./sg/0930/评书.json"
 		}, 
 		
 		{
 			"key": "hipy_js_一曲肝肠断",
 			"name": "☪梨园春",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/一曲肝肠断.js"
+			"ext": "./sg/js/一曲肝肠断.js"
 		},
 		
 
@@ -2923,7 +2923,7 @@
             "key": "926看球",
             "name": "☪926球",
             "type": 3,
-            "jar": "./jar/fty.jar",
+            "jar": "./sg/jar/fty.jar",
             "api": "csp_kanqiu926",
             "searchable": 0,
             "changeable": 0,
@@ -3080,47 +3080,47 @@
 			"key": "hipy_js_蜻蜓FM",
 			"name": "☪蜻蜓FM",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/蜻蜓FM.js"
+			"ext": "./sg/js/蜻蜓FM.js"
 		},
    
     {
       "key": "js_a8音乐",
       "name": "☪国内FM",
       "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
+      "api": "./sg/drpy_libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./js/广播迷FM[听].js"
+      "ext": "./sg/js/广播迷FM[听].js"
     },
 
 {
 			"key": "hipy_js_KTV歌厅[听]",
 			"name": "☪KTV歌厅",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/KTV歌厅[听].js"
+			"ext": "./sg/js/KTV歌厅[听].js"
 		},
 		
 		{
 			"key": "hipy_js_种子音乐[听]",
 			"name": "☪种子音乐",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/种子音乐[听].js"
+			"ext": "./sg/js/种子音乐[听].js"
 		},
 		
 	
@@ -3129,12 +3129,12 @@
 			"key": "hipy_js_中华听书网[听]",
 			"name": "☪听书网",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/中华听书网[听].js"
+			"ext": "./sg/js/中华听书网[听].js"
 		},
 		
     
@@ -3169,12 +3169,12 @@
 			"key": "hipy_js_爱上你听书网[听]",
 			"name": "☪爱上听书",
 			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
+			"api": "./sg/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/爱上你听书网[听].js"
+			"ext": "./sg/js/爱上你听书网[听].js"
 		},
 		
 		
