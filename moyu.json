@@ -1,5 +1,5 @@
 {
-  "spider": "./moyu/moyu.php;md5;be6121b5c37471b191114027123912d2",
+  "spider": "./moyu/moyu.php;md5;a0d5c4679c9b64c089b63d948c46621a",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "warningText": "提示：资源来自网络，请勿相信视频中的任何广告！",
   "sites": [
@@ -9,13 +9,12 @@
       "type": 3,
       "api": "./moyu/lib/lf_search3_min.js",
       "searchable": 0,
-      "changeable": 1,
       "quickSearch": 0,
       "filterable": 0
-    },  
+    },
     {
       "key": "豆豆",
-      "name": "🌕️豆瓣推荐",
+      "name": "🌕️豆瓣┃首页┃推荐",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -24,7 +23,7 @@
     },
     {
       "key": "update",
-      "name": "🎬️电影预告",
+      "name": "🎬️摸鱼┃电影┃预告",
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0,
@@ -88,42 +87,31 @@
       }
     },
     {
-      "key": "醉挽清风",
-      "name": "🌀醉挽清风┃4K弹幕",
+      "key": "风中知秋",
+      "name": "🌀风中知秋┃4K弹幕",
       "type": 3,
-      "api": "./moyu/lib/apiv209drpy.min.js",
+      "api": "csp_AppYsV3",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./moyu/lib/qingfeng.js"
-    },
-    {
-      "key": "小满万全",
-      "name": "🌀小满万全┃4K纯净",
-      "type": 3,
-      "api": "./moyu/lib/apiv209drpy.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "./moyu/lib/mgtv.js"
-    },
-    {
-      "key": "夸克土豆弹幕",
-      "name": "☘️土豆资源┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./moyu/lib/danmu.php",
-      "quickSearch": 1,
-      "changeable": 1,
       "filterable": 1,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://yunpan.yunpay.cc",
-        "danmu": true
+        "cmsApis": "UP4wckC350BpK3+jAtNI2bALiFmoKuT3saBr3tEJwib2fyd/xcLxfgaGGQQtWFUy",
+        "jxApi": "Wej8dsjSOejyktB12mocSLWTi825PIxEG4czSppvUqp1CDqccQ6jsoQpTPy0wQZY",
+        "prefix": "Vjg339EykTqCGOzkWu38CGyBHHEtp7snRpwV7kGvMmk="
+      }
+    },
+    {
+      "key": "炉火茶香",
+      "name": "🌀炉火茶香┃4K弹幕",
+      "type": 3,
+      "api": "csp_AppYsV3",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cmsApis": "UP4wckC350BpK3+jAtNI2blhjGe5XpRJzt28WdKpAOLIdkF5c7qnry0vLSuNURpG",
+        "jxApi": "Wej8dsjSOejyktB12mocSLWTi825PIxEG4czSppvUqp1CDqccQ6jsoQpTPy0wQZY",
+        "prefix": "dJfwfXAVjjaQz8j4tCkylOzM25rS6UDt2JFvGkrFC/U="
       }
     },
     {
@@ -195,29 +183,6 @@
       "timeout": 10
     },
     {
-      "key": "醉挽清风",
-      "name": "🌀醉挽清风┃4K纯净",
-      "type": 3,
-      "api": "./moyu/lib/apiv209drpy.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./moyu/lib/qingfeng.js"
-    },
-    {
-      "key": "小满万全",
-      "name": "🌀小满万全┃4K纯净",
-      "type": 3,
-      "api": "./moyu/lib/apiv209drpy.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "./moyu/lib/mgtv.js"
-    },
-    {
       "key": "alllive",
       "name": "📽️星河共影┃2K直播",
       "type": 3,
@@ -231,7 +196,7 @@
       "key": "摸鱼瓜子",
       "name": "❤️瓜子┃蓝光┃纯净",
       "type": 3,
-      "api": "./moyu/lib/apiv209drpy.min.js",
+      "api": "./moyu/lib/apiv467drpy.min.js",
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
@@ -337,7 +302,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./moyu/lib/apiv793drpy2.min.js",
+      "api": "./moyu/lib/apiv713drpy2.min.js",
       "ext": "./moyu/lib/jp.js"
     },
     {
@@ -351,6 +316,16 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.czzy77.com/"
+    },
+    {
+      "key": "木星",
+      "name": "🌞木星┃多线┃纯净",
+      "type": 3,
+      "api": "csp_AppSx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
     },
     {
       "key": "原创",
@@ -564,15 +539,6 @@
       "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=央视经典"
     },
     {
-      "key": "短剧",
-      "name": "🌈上头┃短剧┃热推",
-      "type": 3,
-      "api": "csp_Djtt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "无忧短剧",
       "name": "😂无忧┃短剧┃热推",
       "type": 3,
@@ -612,14 +578,14 @@
       "key": "58动漫",
       "name": "🛹 58┃动漫┃蓝光",
       "type": 3,
-      "api": "./moyu/lib/apiv1445drpy.min.js",
+      "api": "./moyu/lib/apiv1369drpy.min.js",
       "ext": "./moyu/lib/58动漫.js"
     },
     {
       "key": "去看吧",
       "name": "🫣看吧┃动漫┃蓝光",
       "type": 3,
-      "api": "./moyu/lib/apiv1445drpy.min.js",
+      "api": "./moyu/lib/apiv1369drpy.min.js",
       "ext": "./moyu/lib/去看吧.js"
     },
     {
@@ -676,7 +642,7 @@
       "key": "有声小说js",
       "name": "📚有声┃小说┃娱乐",
       "type": 3,
-      "api": "./moyu/lib/apiv793drpy2.min.js",
+      "api": "./moyu/lib/apiv713drpy2.min.js",
       "ext": "./moyu/lib/有声小说吧.js",
       "style": {
         "type": "rect",
@@ -937,6 +903,19 @@
       }
     },
     {
+      "key": "UCsousou",
+      "name": "🌈优汐搜搜┃4K纯净",
+      "type": 3,
+      "api": "csp_UuSs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "TVBox/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
       "key": "米搜",
       "name": "🦋米盘搜搜┃4K纯净",
       "type": 3,
@@ -963,14 +942,43 @@
       }
     },
     {
-      "key": "Sso",
-      "name": "🐌盘他盘他┃4K纯净",
+      "key": "PanSso",
+      "name": "🐌盘他盘他┃三盘搜索",
       "type": 3,
-      "api": "./moyu/lib/apiv793drpy2.min.js",
-      "ext": "./moyu/lib/盘他.js",
+      "api": "csp_PanSso",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "TVBox/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "YpanSo",
+      "name": "🐟盘她盘她┃三盘搜索",
+      "type": 3,
+      "api": "csp_YpanSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "TVBox/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "xzso",
+      "name": "👻盘它盘它┃三盘搜索",
+      "type": 3,
+      "api": "csp_xzso",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "TVBox/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "夸克影搜弹幕",
@@ -1303,10 +1311,21 @@
       }
     },
     {
+      "key": "926看球",
+      "name": "⚽926┃看球┃直播",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
       "key": "88js",
       "name": "⚽ 88┃看球┃直播",
       "type": 3,
-      "api": "./moyu/lib/apiv793drpy2.min.js",
+      "api": "./moyu/lib/apiv713drpy2.min.js",
       "ext": "./moyu/lib/88看球.js",
       "style": {
         "type": "list"
@@ -1319,7 +1338,7 @@
       "key": "Jrsjs",
       "name": "⚽ Jrs┃球迷┃直播",
       "type": 3,
-      "api": "./moyu/lib/apiv793drpy2.min.js",
+      "api": "./moyu/lib/apiv713drpy2.min.js",
       "ext": "./moyu/lib/jrk.js",
       "style": {
         "type": "list"
@@ -1364,9 +1383,9 @@
       "url": "Demo"
     },
     {
-      "name": "zhuimi-super",
+      "name": "一",
       "type": 1,
-      "url": "http://110.40.61.139:4655/zhuimi666.php?url=",
+      "url": "https://jx.xiaofengtv.com/jx.php?url=",
       "ext": {
         "flag": [
           "qq",
