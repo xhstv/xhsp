@@ -3,6 +3,15 @@
   "wallpaper": "https://api.mir6.com/api/ecybz",
   "sites": [
     {
+      "key": "lfjs_番茄",
+      "name": "🍟影片库｜西虹视频",
+      "type": 3,
+      "api": "./yuyu/lib/lf_search3_min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }, 
+    {
       "key": "douban",
       "name": "豆瓣推荐",
       "type": 3,
