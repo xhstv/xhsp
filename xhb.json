@@ -1,7 +1,6 @@
 {
   "spider": "./xhb/huban.txt",
   "wallpaper": "https://牛逼.王二小放牛娃.xyz/",
-
   "sites": [
     {
       "key": "lfjs_番茄",
@@ -16,7 +15,8 @@
       "key": "drpy_js_豆瓣",
       "name": "豆瓣推荐",
       "type": 3,
-      "api": "csp_Douban"
+      "api": "csp_Douban",
+      "ext": "./xhb/lib/douban.json"
     },
     {
       "key": "配置中心",
@@ -41,7 +41,7 @@
     },
     {
       "key": "小虎斑1",
-      "name": "网盘┃4K湖畔",
+      "name": "网盘┃4K虎斑",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "./xhb/lib/spider.txt",
@@ -62,13 +62,6 @@
       "name": "弹幕┃馆源",
       "type": 3,
       "api": "csp_HB360"
-    },
-    {
-      "key": "人人",
-      "name": "弹幕┃人人",
-      "type": 3,
-      "api": "csp_HBrren",
-      "ext": "IHsiaG9zdCI6Imh0dHBzOi8vamlla291LTEzMTQwNTQ2OTkuY29zLmFwLWNob25ncWluZy5teXFjbG91ZC5jb20vMS50eHQiLCJrZXkiOiJSalV4UmpWRU5USkVNak5EUWtZeU53PT0iLCJpdiI6IlJqVXhSalZFTlRKRU1qTkRRa1l5Tnc9PSIsInR5cGVJZHMiOlsiMCIsIjEiLCIyIiwiMyJdLCJ0eXBlTmFtZXMiOlsi5YWo6YOoIiwi55S15b2xIiwi55S16KeG5YmnIiwi5Yqo5ryrIl19"
     },
     {
       "key": "皮皮",
@@ -579,7 +572,7 @@
     {
       "name": "超级接口",
       "type": 1,
-      "url": "http://60.211.124.23:10101/tvbox/json/json.php/?key=3692581722&url="
+      "url": "http://60.211.124.23:10101/tvbox/json/json.php/?key=3692581732&url="
     },
     {
       "name": "虎斑",
