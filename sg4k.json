@@ -1,19 +1,19 @@
 ﻿{
-    "spider": "./sg4k/jar/xmbjm.jar",
-    "wallpaper": "http://wenxintongxue.serv00.net/image",
+    "spider": "./sg4k/xmbjm.jar",
+    "wallpaper": "https://sgmao.serv00.net/image/",
     "sites": [
         {
             "key": "lfjs_番茄",
             "name": "🍟影片库｜西虹视频",
             "type": 3,
-            "api": "./sg4k/JS/lf_search3_min.js",
+            "api": "./lf_search3_min.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        }, 
+        },
         {
             "key": "豆瓣",
-            "name": "云盘｜首页",
+            "name": "↓请先配置网盘账号↓",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -43,7 +43,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "./sg4k/jar/wex.jar"
+            "jar": "./sg4k/wex.jar"
         },
         {
             "key": "我的阿里",
@@ -104,18 +104,18 @@
             "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./sg4k/JS/alishare.txt"
+                "share": "./JS/alishare.txt"
             },
             "style": {
                 "type": "list"
             }
         },
-        {
+//        {
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
-            "api": "./sg4k/JS/quark.min.js",
-            "ext": "./sg4k/JS/短剧合集.js",
+            "api": "./JS/quark.min.js",
+            "ext": "./JS/短剧合集.js",
             "style": {
                 "type": "list"
             }
@@ -234,22 +234,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "夸克土豆弹幕",
-            "name": "土豆｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://dcyun.cc",
-                "danmu": true
-            }
-        },
+       
         {
             "key": "夸克木偶弹幕",
             "name": "木偶｜4K弹幕",
@@ -262,7 +247,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://www.muoupan.top",
+                "site": "http://www.mogg.top",
                 "danmu": true
             }
         },
@@ -283,39 +268,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "夸克奥秘弹幕",
-            "name": "奥秘｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://vip.omii.top",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克白嫖弹幕",
-            "name": "白嫖｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://失眠的夜.top",
-                "danmu": true
-            }
-        },
+        
         {
             "key": "夸克虎斑弹幕",
             "name": "虎斑｜4K弹幕",
@@ -328,7 +281,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://wp.huban.xyz",
+                "site": "http://103.45.162.207:20720",
                 "danmu": true
             }
         },
@@ -348,19 +301,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "115",
-            "name": "115｜4K",
-            "type": 3,
-            "api": "csp_Wex115share",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 50,
-            "style": {
-                "type": "list"
-            },
-            "jar": "./sg4k/jar/wex.jar"
-        },
+       
         {
             "key": "雷鲸",
             "name": "雷鲸｜4K",
@@ -368,7 +309,7 @@
             "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./sg4k/jar/wex.jar"
+            "jar": "./sg4k/wex.jar"
         },
         {
             "key": "天翼",
@@ -377,7 +318,7 @@
             "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0,
-            "jar": "./sg4k/jar/wex.jar"
+            "jar": "./sg4k/wex.jar"
         },
         {
             "key": "盘他",
@@ -386,7 +327,7 @@
             "api": "csp_WexYDpanta",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./sg4k/jar/wex.jar"
+            "jar": "./sg4k/wex.jar"
         },
         {
             "key": "Emby",
@@ -395,7 +336,7 @@
             "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./sg4k/jar/wex.jar"
+            "jar": "./sg4k/wex.jar"
         },
         {
             "key": "搜索弹幕",
@@ -549,38 +490,6 @@
                 "9.9.9.9",
                 "149.112.112.112"
             ]
-        }
-    ],
-    "lives": [
-        {
-            "name": "直播",
-            "type": 0,
-            "url": "https://4708.kstore.space/omg/tv.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "电视Live",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "网络Live",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Live",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "范明明",
-            "type": 0,
-            "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-            "playerType": 2,
-            "timeout": 10
         }
     ],
     "ijk": [
