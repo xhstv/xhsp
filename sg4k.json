@@ -1,5 +1,5 @@
 ﻿{
-    "spider": "./sg4k/xmbjm.jar",
+    "spider": "./sg4k/jar/xmbjm.jar",
     "wallpaper": "https://sgmao.serv00.net/image/",
     "sites": [
         {
@@ -43,7 +43,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "./sg4k/wex.jar"
+            "jar": "./sg4k/jar/wex.jar"
         },
         {
             "key": "我的阿里",
@@ -104,18 +104,18 @@
             "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./JS/alishare.txt"
+                "share": "./sg4k/JS/alishare.txt"
             },
             "style": {
                 "type": "list"
             }
         },
-//        {
+        {
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
-            "api": "./JS/quark.min.js",
-            "ext": "./JS/短剧合集.js",
+            "api": "./sg4k/JS/quark.min.js",
+            "ext": "./sg4k/JS/短剧合集.js",
             "style": {
                 "type": "list"
             }
@@ -309,7 +309,7 @@
             "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./sg4k/wex.jar"
+            "jar": "./sg4k/jar/wex.jar"
         },
         {
             "key": "天翼",
@@ -318,7 +318,7 @@
             "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0,
-            "jar": "./sg4k/wex.jar"
+            "jar": "./sg4k/jar/wex.jar"
         },
         {
             "key": "盘他",
@@ -327,7 +327,7 @@
             "api": "csp_WexYDpanta",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./sg4k/wex.jar"
+            "jar": "./sg4k/jar/wex.jar"
         },
         {
             "key": "Emby",
@@ -336,7 +336,7 @@
             "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./sg4k/wex.jar"
+            "jar": "./sg4k/jar/wex.jar"
         },
         {
             "key": "搜索弹幕",
