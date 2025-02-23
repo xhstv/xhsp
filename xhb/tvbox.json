@@ -134,6 +134,25 @@
       "ext": "https://www.cfkj86.com"
     },
     {
+      "key": "全网",
+      "name": "弹幕┃全网",
+      "type": 3,
+      "api": "csp_HBqwKan"
+    },
+    {
+      "key": "相随",
+      "name": "弹幕┃相随",
+      "type": 3,
+      "api": "csp_ApplvDV2",
+      "ext": "YUhSMGNEb3ZMelF6TGpJME9DNHhNREF1TVRNMU9qY3dOekF2WVhCcExuQm9jQzloY0hBdkl5TWphSFIwY0hNNkx5OXNkbVJ2ZFRndU16UTFOamMyTG5oNWVpOWhaR1J2Ym5NdmJIWmtiM1ZpYjNndllYQnBMbWx1WkdWNFAybGtQVFFtZFhKc1BTTWpJMmgwZEhCek9pOHZiSFprYjNVNExqTTBOVFkzTmk1NGVYb3ZZV1JrYjI1ekwyeDJaRzkxWW05NEwyRndhUzVwYm1SbGVEOXBaRDAxSm5WeWJEMD0="
+    },
+    {
+      "key": "星辰",
+      "name": "弹幕┃星辰",
+      "type": 3,
+      "api": "csp_HBxingC"
+    },
+    {
       "key": "兔子",
       "name": "弹幕┃兔子",
       "type": 3,
@@ -166,20 +185,6 @@
       "name": "动漫┃风铃",
       "type": 3,
       "api": "csp_HBfling"
-    },
-    {
-      "key": "腾腾",
-      "name": "弹幕┃腾腾",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=腾腾"
-    },
-    {
-      "key": "youyou",
-      "name": "弹幕┃优优",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=优优"
     },
     {
       "key": "苹果",
@@ -458,6 +463,13 @@
       }
     },
     {
+      "key": "专用",
+      "name": "测试┃专用",
+      "type": 3,
+      "api": "csp_HBqwKan",
+      "jar": "http://60.211.124.23:10101/jar/custom_spider.jar"
+    },
+    {
       "key": "爱坤",
       "name": "采集┃爱坤",
       "type": 1,
@@ -572,7 +584,7 @@
     {
       "name": "超级接口",
       "type": 1,
-      "url": "http://60.211.124.23:10101/tvbox/json/json.php/?key=3692581732&url="
+      "url": "http://60.211.124.23:10101/tvbox/json/json.php/?key=36925817322&url="
     },
     {
       "name": "虎斑",
