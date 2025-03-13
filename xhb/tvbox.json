@@ -1,6 +1,7 @@
 {
-  "spider": "./xhb/huban.txt",
+  "spider": "./xhb/custom_spider.jar",
   "wallpaper": "https://牛逼.王二小放牛娃.xyz/",
+  "lives": [],
   "sites": [
     {
       "key": "lfjs_番茄",
@@ -23,7 +24,7 @@
       "name": "配置┃网盘",
       "type": 3,
       "api": "csp_Config",
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
@@ -44,7 +45,7 @@
       "name": "网盘┃4K虎斑",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -64,10 +65,16 @@
       "api": "csp_HB360"
     },
     {
-      "key": "皮皮",
-      "name": "弹幕┃皮皮",
+      "key": "磁力",
+      "name": "弹幕┃6V",
       "type": 3,
-      "api": "csp_PPX"
+      "api": "csp_Xb6v"
+    },
+    {
+      "key": "低端",
+      "name": "美剧┃低端",
+      "type": 3,
+      "api": "csp_HBdiDuan"
     },
     {
       "key": "黑狐",
@@ -86,12 +93,6 @@
       "name": "弹幕┃蝴蝶",
       "type": 3,
       "api": "csp_HBdcApi"
-    },
-    {
-      "key": "图图",
-      "name": "弹幕┃图图",
-      "type": 3,
-      "api": "csp_HBv1Class"
     },
     {
       "key": "萌芽",
@@ -144,7 +145,14 @@
       "name": "弹幕┃相随",
       "type": 3,
       "api": "csp_ApplvDV2",
-      "ext": "YUhSMGNEb3ZMelF6TGpJME9DNHhNREF1TVRNMU9qY3dOekF2WVhCcExuQm9jQzloY0hBdkl5TWphSFIwY0hNNkx5OXNkbVJ2ZFRndU16UTFOamMyTG5oNWVpOWhaR1J2Ym5NdmJIWmtiM1ZpYjNndllYQnBMbWx1WkdWNFAybGtQVFFtZFhKc1BTTWpJMmgwZEhCek9pOHZiSFprYjNVNExqTTBOVFkzTmk1NGVYb3ZZV1JrYjI1ekwyeDJaRzkxWW05NEwyRndhUzVwYm1SbGVEOXBaRDAxSm5WeWJEMD0="
+      "ext": "YUhSMGNEb3ZMelF6TGpJME9DNHhNREF1TVRNMU9qYzJPRGN2WVhCcExuQm9jQzloY0hBdkl5TWphSFIwY0hNNkx5OXNkbVJ2ZFRndU16UTFOamMyTG5oNWVpOWhaR1J2Ym5NdmJIWmtiM1ZpYjNndllYQnBMbWx1WkdWNFAybGtQVFFtZFhKc1BTTWpJMmgwZEhCek9pOHZiSFprYjNVNExqTTBOVFkzTmk1NGVYb3ZZV1JrYjI1ekwyeDJaRzkxWW05NEwyRndhUzVwYm1SbGVEOXBaRDAxSm5WeWJEMD0="
+    },
+    {
+      "key": "觅影",
+      "name": "弹幕┃觅影",
+      "type": 3,
+      "api": "csp_ApplvDV2",
+      "ext": "YUhSMGNEb3ZMekV4TUM0ME1DNDBNQzR5TkRJNk9Ua3lMMkZ3YVM1d2FIQXZZWEJ3THlNakkyaDBkSEE2THk4eE1URXVNakk1TGpFNE9DNHhOVFE2TXpNek15OWhaR1J2Ym5NdmJIWmtiM1ZpYjNndllYQnBMbWx1WkdWNFAybGtQVGNtZFhKc1BTTWpJMmgwZEhCek9pOHZiSFprYjNVNExqTTBOVFkzTmk1NGVYb3ZZV1JrYjI1ekwyeDJaRzkxWW05NEwyRndhUzVwYm1SbGVEOXBaRDAxSm5WeWJEMD0="
     },
     {
       "key": "星辰",
@@ -199,46 +207,11 @@
       "api": "csp_HBtdou"
     },
     {
-      "key": "追剧",
-      "name": "网页┃可可",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=可可网页"
-    },
-    {
       "key": "立播",
       "name": "弹幕┃立播",
       "type": 3,
       "api": "csp_HBtiantian",
       "ext": "http://v.rbotv.cn/"
-    },
-    {
-      "key": "修罗",
-      "name": "网站┃修罗",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=修罗"
-    },
-    {
-      "key": "xingkong",
-      "name": "网站┃星空",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=星空"
-    },
-    {
-      "key": "兄弟",
-      "name": "网站┃兄弟",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=兄弟"
-    },
-    {
-      "key": "yingkong",
-      "name": "网站┃樱空",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=樱空"
     },
     {
       "key": "米兔[资]",
@@ -268,18 +241,17 @@
       "ext": "eyJob3N0IjoiaHR0cDovLzExOC4xMDcuNDEuMTM0OjM1NTU1LyIsImtleSI6IlpHTXpNalV3Tm1RNVlqVmpZbVk0WlE9PSIsIml2IjoiWkdNek1qVXdObVE1WWpWalltWTRaUT09IiwidHlwZUlkcyI6WyIxIiwiMiIsIjMiLCI0Il0sInR5cGVOYW1lcyI6WyLnlLXlvbEiLCLnlLXop4bliaciLCLliqjmvKsiLCLnu7zoiboiXX0="
     },
     {
+      "key": "dmmiku",
+      "name": "动漫┃异世界",
+      "type": 3,
+      "api": "csp_Ysj"
+    },
+    {
       "key": "次元",
       "name": "动漫┃次元",
       "type": 3,
       "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=次元"
-    },
-    {
-      "key": "omofun",
-      "name": "动漫┃omofun",
-      "type": 3,
-      "api": "./xhb/lib/drpy2.min.js",
-      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=7894561233&id=omofun"
+      "ext": "http://60.211.124.23:10101/tvbox/js/gyi.php?key=789456321&id=次元"
     },
     {
       "key": "哔嘀弹幕",
@@ -289,18 +261,24 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "ext": {
         "site": "https://www.yjys05.com",
         "danmu": true
       }
     },
     {
+      "key": "体育",
+      "name": "体育┃实时",
+      "type": 3,
+      "api": "csp_Kanqiu"
+    },
+    {
       "key": "玩偶弹幕",
       "name": "网盘｜玩偶",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -319,7 +297,7 @@
       "api": "csp_Wogg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -337,7 +315,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
@@ -353,7 +331,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
@@ -368,7 +346,7 @@
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -384,7 +362,7 @@
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -401,7 +379,7 @@
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -418,7 +396,7 @@
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -435,7 +413,7 @@
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -452,7 +430,7 @@
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./xhb/lib/spider.txt",
+      "jar": "./xhb/lib/spider.jar",
       "filterable": 1,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
@@ -466,8 +444,7 @@
       "key": "专用",
       "name": "测试┃专用",
       "type": 3,
-      "api": "csp_HBqwKan",
-      "jar": "http://60.211.124.23:10101/jar/custom_spider.jar"
+      "api": "csp_HBdiDuan"
     },
     {
       "key": "爱坤",
@@ -584,7 +561,7 @@
     {
       "name": "超级接口",
       "type": 1,
-      "url": "http://60.211.124.23:10101/tvbox/json/json.php/?key=36925817322&url="
+      "url": "http://60.211.124.23:10101/tvbox/json/json.php/?key=369258173222&url="
     },
     {
       "name": "虎斑",
@@ -958,7 +935,6 @@
   "ads": [
     "wan.51img1.com",
     "iqiyi.hbuioo.com",
-    "vip.ffzyad.com",
-    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
+    "vip.ffzyad.com"
   ]
 }
