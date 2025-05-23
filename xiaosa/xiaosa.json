@@ -3,6 +3,18 @@
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
+<<<<<<< HEAD:xiaosa/xs.json
+=======
+    {
+      "key": "lfjs_番茄",
+      "name": "🍟影片库｜西虹视频",
+      "type": 3,
+      "api": "./lf_search3_min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+>>>>>>> c3fa73217e78586ffa0be188c2f69cecc1b80ee6:xs.json
         {
             "key": "豆瓣",
             "name": "豆瓣｜首页",
